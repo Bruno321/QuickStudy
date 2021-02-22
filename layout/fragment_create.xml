@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tabViewContent.CreateFragment">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:id="@+id/materia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/materia"
+            android:textAlignment="center"
+            android:layout_marginLeft="200sp"
+            android:layout_marginStart="170sp"
+            />
+        <EditText
+            android:id="@+id/pregunta"
+            android:layout_width="410sp"
+            android:layout_height="wrap_content"
+            android:hint="@string/pregunta"
+            android:textAlignment="center"
+            />
+        <EditText
+            android:id="@+id/respuesta"
+            android:layout_width="410sp"
+            android:layout_height="wrap_content"
+            android:hint="@string/respuesta"
+            android:textAlignment="center"
+            />
+        <Button
+            android:id="@+id/btnAgregar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Agregar"
+            android:layout_marginLeft="200sp"
+            android:layout_marginStart="160sp"
+            />
+    </LinearLayout>
+
+
+</FrameLayout>

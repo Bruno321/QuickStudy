@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">QuickStudyDEF</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="materia">Materia</string>
+    <string name="pregunta">Pregunta</string>
+    <string name="respuesta">Respuesta</string>
+    <string name="Agregar">Agregar</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="detener">Detener</string>
+</resources>
